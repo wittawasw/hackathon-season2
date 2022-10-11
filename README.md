@@ -1,15 +1,19 @@
 # hackathon-season2
+## Solution
+- Run Ruby script from 01 - 04.
+- Run `visualizer.rb` to create `visualizer.html` which can be viewed in web browser.
+
 ## Story
-สายการบิน DevMountain ถูก Take Over โดยสายการบิน DevClub ซึ่งจะต้องมีการย้ายพนักงานจาก DevMountain มา DevClub ซึ่งส่งผลกระทบกับทางแผนกไอทีต้องทำการย้ายข้อมูลมาลงในฐานข้อมูลใหม่ 
+สายการบิน DevMountain ถูก Take Over โดยสายการบิน DevClub ซึ่งจะต้องมีการย้ายพนักงานจาก DevMountain มา DevClub ซึ่งส่งผลกระทบกับทางแผนกไอทีต้องทำการย้ายข้อมูลมาลงในฐานข้อมูลใหม่
 - ไฟล์ข้อมูลพนักงานของสายการบิน DevMountain จะอยู่ในรูปแบบ csv
-- ไฟล์ข้อมูลพนักงานของสายการบิน DevClub จะอยู่ในรูปแบบ xml  
+- ไฟล์ข้อมูลพนักงานของสายการบิน DevClub จะอยู่ในรูปแบบ xml
 ให้ทำการย้ายข้อมูลลงในฐานข้อมูลใหม่เป็น sqlite โดยมีเงื่อนไข ดังนี้
-- ย้ายพนักงานจากสายการบิน DevMountain ไป DevClub เฉพาะตำแหน่ง Air Hostess, Pilot และ Steward ที่มีสถานะ Active 
+- ย้ายพนักงานจากสายการบิน DevMountain ไป DevClub เฉพาะตำแหน่ง Air Hostess, Pilot และ Steward ที่มีสถานะ Active
 - สำหรับตำแหน่งอายุการทำงาน เกิน 3 ปี
 
 
-## Migration Challenge 
-- ย้ายพนักงานจากสายการบิน DevMountain ไป DevClub เฉพาะตำแหน่ง Air Hostess, Pilot และ Steward ที่มีสถานะ Active 
+## Migration Challenge
+- ย้ายพนักงานจากสายการบิน DevMountain ไป DevClub เฉพาะตำแหน่ง Air Hostess, Pilot และ Steward ที่มีสถานะ Active
 - สำหรับตำแหน่งอายุการทำงาน เกิน 3 ปี
 - สร้างไฟล์ CSV แยกตามสัญชาติของพนักงาน
 - สร้าง SQLite view ที่สามารถ query ตามประเทศที่ทำงาน
@@ -59,23 +63,23 @@
 - โค๊ดทำงานถูกต้อง
 - Performance
   - Memory usage
-  - Runtime benchmark 
+  - Runtime benchmark
 - Code อ่านง่าย
 - ส่งเร็ว
-- Creative ตอนทำ Data visualization 
+- Creative ตอนทำ Data visualization
 - ผลลัพธ์จาก SQLlite ต้องได้เป็น **JSON** format
 
 
 
 ### ไม่รู้วิธี Fork หรือ สร้าง PR สามารถฝึกได้จากที่นี่
-https://github.com/firstcontributions/first-contributions 
+https://github.com/firstcontributions/first-contributions
 
 ## How to submit
 - Create a PR to hackathon season 2 repository, add your name or team information and your repo link
 
 
 ## Q&A คำถามที่พบบ่อย
-- ดูได้จาก issues 
+- ดูได้จาก issues
 https://github.com/devmountaintechfest/hackathon-season2/issues
 
 ## ทีม Dev mountain ที่ดูแลการแข่งครั้งนี้
