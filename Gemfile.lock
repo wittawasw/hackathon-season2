@@ -15,6 +15,7 @@ GEM
     sqlite3 (1.5.2-x86_64-linux)
     tzinfo (2.0.5)
       concurrent-ruby (~> 1.0)
+    vega (0.2.7)
 
 PLATFORMS
   x86_64-linux
@@ -24,6 +25,7 @@ DEPENDENCIES
   libxml-ruby (~> 3.2)
   sequel (~> 5.61)
   sqlite3 (~> 1.5)
+  vega (~> 0.2.7)
 
 BUNDLED WITH
    2.3.12

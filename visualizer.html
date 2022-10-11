@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Visualize</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+  </head>
+  <body>
+    <h1>Visualizer</h1>
+    <section class="visualizer">
+      <div style="max-width: 500px;">
+        <div id="chart-66eb800d014fa5f9aa47e8293ea383cf" style="width: 100%; height: 300px;"></div>
+<script>
+  (function() {
+    var createChart = function() { vegaEmbed("#chart-66eb800d014fa5f9aa47e8293ea383cf", {"$schema":"https://vega.github.io/schema/vega-lite/v5.json","width":"container","height":"container","data":{"values":[{"position":"Airhostess","count":8},{"position":"Pilot","count":12},{"position":"Steward","count":6}]},"mark":{"type":"bar","tooltip":true},"encoding":{"x":{"field":"position","type":"nominal"},"y":{"field":"count","type":"quantitative"}}}, {"actions":false}); };
+    if ("vegaEmbed" in window) {
+      createChart();
+    } else {
+      window.addEventListener("vega:load", createChart, true);
+    }
+  })();
+</script>
+
+      </div>
+      <div style="max-width: 500px;">
+        <div id="chart-97f9caf44c98e47a0bdabd92579eb8c5" style="width: 100%; height: 300px;"></div>
+<script>
+  (function() {
+    var createChart = function() { vegaEmbed("#chart-97f9caf44c98e47a0bdabd92579eb8c5", {"$schema":"https://vega.github.io/schema/vega-lite/v5.json","width":"container","height":"container","data":{"values":[{"nationality":"Australia","count":1},{"nationality":"Brazil","count":2},{"nationality":"China","count":1},{"nationality":"France","count":1},{"nationality":"Germany","count":1},{"nationality":"India","count":1},{"nationality":"Indonesia","count":1},{"nationality":"Italy","count":3},{"nationality":"Mexico","count":2},{"nationality":"Netherlands","count":2},{"nationality":"Nigeria","count":1},{"nationality":"Pakistan","count":1},{"nationality":"Peru","count":1},{"nationality":"Philippines","count":2},{"nationality":"Singapore","count":3},{"nationality":"Spain","count":1},{"nationality":"Turkey","count":1},{"nationality":"Ukraine","count":1}]},"mark":{"type":"bar","tooltip":true},"encoding":{"x":{"field":"nationality","type":"nominal"},"y":{"field":"count","type":"quantitative"}}}, {"actions":false}); };
+    if ("vegaEmbed" in window) {
+      createChart();
+    } else {
+      window.addEventListener("vega:load", createChart, true);
+    }
+  })();
+</script>
+
+      </div>
+    </section>
+  </body>
+</html>

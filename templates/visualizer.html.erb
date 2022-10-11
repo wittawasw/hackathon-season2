@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Visualize</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <section class="visualizer">
+      <div style="max-width: 500px;">
+        <%= position_chart %>
+      </div>
+      <div style="max-width: 500px;">
+        <%= nationality_chart %>
+      </div>
+    </section>
+  </body>
+</html>
